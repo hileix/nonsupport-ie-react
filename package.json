@@ -1,0 +1,27 @@
+{
+  "name": "nonsupport-ie-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "./node_modules/.bin/start-storybook -p 9001 -c .storybook",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "keywords": [],
+  "author": "hileix <304192604@qq.com> (https://github.com/hileix)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@storybook/addon-actions": "^4.0.4",
+    "@storybook/react": "^4.0.4",
+    "@storybook/storybook-deployer": "^2.3.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4"
+  },
+  "dependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-markdown": "^4.0.3"
+  }
+}
