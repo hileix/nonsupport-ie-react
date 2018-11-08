@@ -1,6 +1,6 @@
 {
   "name": "nonsupport-ie-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "react for nonsupport IE browser, and give a reminder",
   "homepage": "https://github.com/hileix/nonsupport-ie-react",
   "main": "index.js",
