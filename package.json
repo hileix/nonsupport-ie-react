@@ -1,23 +1,34 @@
 {
   "name": "nonsupport-ie-react",
   "version": "1.0.0",
-  "description": "",
+  "description": "react for nonsupport IE browser, and give a reminder",
+  "homepage": "https://github.com/hileix/nonsupport-ie-react",
   "main": "index.js",
   "scripts": {
     "storybook": "./node_modules/.bin/start-storybook -p 9001 -c .storybook",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages",
+    "build": "./node_modules/.bin/babel --presets=@babel/preset-env,@babel/preset-react ./src/NonsupportIE.js -o ./index.js "
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "component",
+    "ie",
+    "reminder",
+    "browser"
+  ],
   "author": "hileix <304192604@qq.com> (https://github.com/hileix)",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
     "@storybook/addon-actions": "^4.0.4",
     "@storybook/react": "^4.0.4",
     "@storybook/storybook-deployer": "^2.3.0",
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.4"
+    "babel-loader": "^8.0.4",
+    "babel-preset-es2015": "^6.24.1"
   },
   "dependencies": {
     "react": "^16.6.1",
