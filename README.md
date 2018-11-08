@@ -1,4 +1,4 @@
-# nonsupport-ie
+# nonsupport-ie-react
 
 Still support IE ? Say no! Our App is not support IE!
 
